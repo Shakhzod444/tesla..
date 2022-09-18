@@ -1,0 +1,208 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'Ubuntu', sans-serif;
+   ;
+}
+
+.container {
+   /* height: 2000px; */
+   width: 1519px;
+   background-color: white;
+   margin: 0 auto;
+   padding-top: 70px;
+}
+
+.header {
+   height: 50px;
+   width: 100%;
+   background-color: rgb(46, 46, 46);
+   background-position: center;
+   padding-top: 12px;
+
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo {
+   height: 30px;
+   width: 150px;
+   background-image: url(./logo.f73b7a3b.svg );
+   background-size: 100%;
+   background-repeat: no-repeat;
+
+}
+
+
+
+.main {
+   width: 1340px;
+   height: 570px;
+   margin: auto;
+}
+
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.imgs {
+   width: 1100px;
+   height: 500px;
+   margin-top: 50px;
+   background-image: url("https://teslaone.com.ua/img/tesla-x/configurator/photo-salon-black.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 30px;
+   transition: 1s;
+
+}
+
+
+
+
+
+.bottom {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+   margin-top: 50px;
+}
+
+.botom_left {
+   color: rgb(46, 46, 46);
+   font-size: 24px;
+   /* font-weight: 500; */
+}
+
+.bx {
+   display: flex;
+   color: black;
+   font-size: 48px;
+}
+
+.bx b {
+   margin-top: 25px;
+}
+
+.remaining_charge h2 {
+   font-size: 22ppx;
+}
+
+.botom_right {
+   margin-left: 100px;
+   font-size: 24px;
+   color: rgb(48, 48, 48);
+}
+
+.botom_right b {
+   font-size: 68px;
+   color: black;
+}
+
+
+
+
+
+
+.color {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   bottom: 100px;
+   margin-bottom: 200px;
+}
+
+.txt {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 110px;
+   font-size: 24px;
+   color: rgb(48, 48, 48);
+   margin-bottom: 10px;
+
+}
+
+
+
+.main-right-colors {
+   width: 250px;
+   height: 50px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: left;
+   gap: 14px;
+   margin-left: 0px;
+   align-items: center;
+   margin-bottom: 100px;
+}
+
+.main-right-color-green {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(0, 0, 0);
+   margin-left: 3px;
+
+}
+
+.main-right-color-silver {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(184, 184, 184);
+   margin-left: 3px;
+
+}
+
+.main-right-color-gold {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(171, 150, 129);
+   margin-left: 3px;
+}
+
+.main-right-colors-round {
+   width: 65px;
+   height: 65px;
+   display: flex;
+   align-items: center;
+   border-radius: 100%;
+   border: 1px solid rgb(40, 40, 40);
+   padding: 3px;
+
+}
+
+.main-right-colors-round:hover {
+   border: 1px solid #9F9FA3FF;
+}
+
+.main-right-colors-round-active {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   border-radius: 100%;
+   border: 2px solid #197FE5FF;
+   padding: 3px;
+}
+.exit{
+   height: 64px;
+   width: 64px;
+   background-image: url(./3994382_access_close_exit_logout_sign\ out_icon.png);
+ position: absolute;
+ background-position: center;
+ margin-top: -400px;
+ margin-left: 1100px;
+}

@@ -1,0 +1,319 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   height: 1000px;
+   width: 1519px;
+   background-color: white;
+   margin: 0 auto;
+   padding-top: 70px;
+}
+
+.header {
+   height: 50px;
+   width: 100%;
+   background-color: rgb(46, 46, 46);
+   background-position: center;
+   padding-top: 12px;
+
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo {
+   height: 30px;
+   width: 150px;
+   background-image: url(./logo.f73b7a3b.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+
+}
+.img_tesla{
+   height: 400px;
+   margin: 0px auto;
+   background-image: url(./model\ x\ black.jfif);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 80%;
+   position: relative;
+}
+
+.coleso1 {
+   height: 121px;
+   width: 120px;
+   border-radius: 100%;
+   background-image: url(./silver_files/20Cyberstream.png);
+background-color: black;
+   background-position: center ;
+   background-size: 100%;
+   position: absolute;
+   left: 455px;
+   top: 185px;
+   animation: rotate .1s ease 7ms infinite;
+
+}
+.coleso2 {
+   height: 121px;
+   width: 120px;
+   border-radius: 100%;
+   background-image: url(./silver_files/20Cyberstream.png);
+   background-position: center ;
+   background-size: 101%;
+   position: absolute;
+   left: 927px;
+   top: 185px;
+   animation: rotate .1s ease 7ms infinite;
+background-color: rgb(0, 0, 0);
+}
+
+
+.zamena1 {
+   height: 121px;
+   width: 120px;
+   border-radius: 100%;
+   background-image: url(./silver_files/22Turbine.png);
+   background-color: black;
+   background-position: center ;
+   background-size: 100%;
+   position: absolute;
+   left: 455px;
+   top: 185px;
+   animation: rotate .1s ease 7ms infinite;
+   display: none;
+}
+.zamena2 {
+   height: 121px;
+   width: 120px;
+   border-radius: 100%;
+   background-image: url(./silver_files/22Turbine.png);
+   background-position: center ;
+   background-size: 101%;
+   position: absolute;
+   left: 927px;
+   top: 185px;
+   animation: rotate .1s ease 7ms infinite;
+   background-color: rgb(0, 0, 0);
+   display: none;
+}
+
+@keyframes rotate {
+   0% {
+      transform: rotateZ(0deg);
+   }
+   100% {
+      transform: rotateZ(-360deg);
+   }
+}
+
+.bottom{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+.botom_left{
+   color: rgb(46, 46, 46);
+   font-size: 24px;
+   /* font-weight: 500; */
+}
+
+.bx {
+   display: flex;
+   color: black;
+   font-size: 48px;
+}
+.bx b {
+   margin-top: 25px;
+}
+.remaining_charge h2  {
+   font-size: 22ppx;
+}
+.botom_right {
+   margin-left: 100px;
+   font-size: 24px;
+   color: rgb(48, 48, 48);
+}
+.botom_right b {
+   font-size: 68px;
+   color: black;
+}
+
+
+.bottom2 {
+   display: flex;
+   height: 100px;
+   gap: 40px;
+   justify-content: center;
+}
+
+.btm {
+   width: 250px;
+   color: rgb(46, 46, 46);
+   font-size: 18px;
+}
+.bt {
+   display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+}
+.bt_left{
+   font-size: 54px;
+   color: black;
+   font-weight: bold;
+display: flex;
+}
+.km {
+   font-size: 50px;
+   color: black;
+   font-weight: bold;
+}
+.bt_right{
+
+margin-left: 10px;
+
+}
+
+.stop {
+   height: 25px;
+   width: 25px;
+   background-image: url(./9110921_circle_arrow_top_icon.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+.sbotttom {
+   margin-top: 10px;
+   height: 25px;
+   width: 25px;
+   background-image: url(./9111055_circle_arrow_bottom_icon.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+
+
+
+.temptop {
+   height: 25px;
+   width: 25px;
+   background-image: url(./9110921_circle_arrow_top_icon.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+.tempbot {
+   margin-top: 10px;
+   height: 25px;
+   width: 25px;
+   background-image: url(./9111055_circle_arrow_bottom_icon.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+.topd {
+   height: 25px;
+   width: 25px;
+   background-image: url(./9110921_circle_arrow_top_icon.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+.botttomd {
+   margin-top: 10px;
+   height: 25px;
+   width: 25px;
+   background-image: url(./9111055_circle_arrow_bottom_icon.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+.bt_right:nth-child(1){
+
+   margin-left: 150px;
+   
+   }
+
+   .btmm {
+     
+      width: 120px;
+      color: rgb(46, 46, 46);
+      font-size: 18px;
+   }
+   .btmn {
+      width: 220px;
+      color: rgb(46, 46, 46);
+      font-size: 18px;
+   }
+
+
+.check p {
+   font-size: 18px;
+   color: rgb(46, 46, 46);
+}
+
+input[type="checkbox"]{
+   margin-top: 10px;
+   position: relative;
+   width: 55px;
+   height: 30px;
+   -webkit-appearance: none;
+   background: #b1b1b1;
+   outline: none;
+   border-radius: 20px;
+   box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+   transition: .2s ease;
+}
+input:checked[type="checkbox"]{
+   background: rgb(0, 123, 255);
+
+}
+input[type="checkbox"]::before{
+   content: '';
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   top: 5px;
+   left: 5px;
+   background: #fff;
+   transform: scale(1.1);
+   box-shadow: 0 2px 5px rgba(0,0,0,.2);
+   transition: .2s ease;
+}
+input:checked[type="checkbox"]::before{
+   left: 30px;
+}
+
+.door2{
+   height: 220px;
+   width: 200px;
+   position: absolute;
+   left: 600px;
+   top: 50px;
+}
+
+
+
+
+
+
+
+/* .door {
+   display: none;
+} */
